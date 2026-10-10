@@ -1,0 +1,22 @@
+body{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container{
+    outline: solid  1px red;
+    /* 
+    */
+    width: 1200px;
+    height: 800px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}   
+
+#canva_id{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
