@@ -22,11 +22,13 @@ camera = new THREE.PerspectiveCamera(
 );
 
 //esto es importantisimo la posicion de la camara
-camera.position.z = 5;
+camera.position.z = 3.8;
 
 renderer = new THREE.WebGLRenderer();
 renderer.domElement.id = 'canva_id'
 renderer.setSize(975,668);
+
+//agregar en el div
 contenedor = document.getElementById('container');
 contenedor.appendChild(renderer.domElement)
 
@@ -44,7 +46,7 @@ scene.add(light.target);
 
 
 
-//loading
+//loading (cargar el modelo)
 
 loader.load('/models/RTX+3080Ti.glb', function (gltf) {
     scene.add(gltf.scene);

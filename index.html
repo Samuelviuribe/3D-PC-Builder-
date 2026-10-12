@@ -1,17 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Visualizador 3D </title>
     <link rel="shortcut icon" href="data:;">
     <link rel="stylesheet" href="index.css">
-    <script type="module" src="main.js"></script>
+    <script type="module" src="visualizer.js"></script>
 </head>
-<body>
-    
-    <div id="container"></div>
-    
-</body>
-</html>
 
+<body>
+
+    <div class="random_square">
+        <div class="square"></div>
+        <script>
+        const original = document.getElementsByClassName("square");
+        const square_clon = original.cloneNode(true);
+
+        </script>
+     </div>
+
+
+
+    <!-- header -->
+     <header>
+
+         <div class="header">
+             <div class="logo">
+                <a href="">L</a>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div id="container"></div>
+    </main>
+
+    <!-- footer -->
+     <footer>
+
+     </footer>
+</body>
+
+</html>

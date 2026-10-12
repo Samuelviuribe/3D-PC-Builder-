@@ -1,22 +1,60 @@
 body{
-    display: flex;
+  margin: 0%;
+  padding: 0%;
+  gap:0%;
+}
+
+main {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#container{
-    outline: solid  1px red;
-    /* 
-    */
-    width: 1200px;
-    height: 800px;
-    display: flex;
+.logo {
+  height: 118px;
+  width: 116px;
+  background-color: #53C0DE;
+  display: flex;  
   justify-content: center;
   align-items: center;
-}   
+  border-radius: 20px;  
+  z-index: 1;
+  position: relative;
+  top: 50px;
+  left: 45px;
+}
 
-#canva_id{
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
+.logo a{
+  font-size: 64px ;
+  color: #FFFFFF;
+}
+
+
+
+#container {  
+  background-color: #FFD8D8;
+  width: 1025px;
+  height: 708px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 12px;  
+  border-radius: 50px;
+}
+
+#canva_id {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 42px;
+
+}
+
+
+
+.square{
+  width: 100px;
+  height: 100px;
+  background-color: #D9D9D9;
+  z-index: -1;
 }
